@@ -1,0 +1,371 @@
+/*
+ Localizable.strings
+ ECloud
+ 
+ Created by rong kira on 11-10-18.
+ Copyright 2011年 Kortide. All rights reserved.
+ */
+
+"Devices" = "Devices";
+"Yes" = "Yes";
+"No" = "No";
+"ReturnBack" = "Back";
+
+//AboutViewController.m
+"VersionInfo" = "Version";
+"ContactInfo" = "Contact us";
+"LinkInfo" = "Thanks to the use Technology Co., Ltd. in Shanghai Kortide produced bubble cloud product, this version applies only to the version of the iPhone iOS 5.0 mobile phone or iPad. The software download, install, completely free, in the process of using the GPRS data traffic fees are charged by carriers.<br/><br/>If you are in the course of any questions or suggestions, please contact us.<br/><br/>The paopaoCloud Home：<a href='www.paopaoyun.com'>www.paopaoyun.com</a><br/>Product Center：<a href='www.paopaoyun.com/help'>www.paopaoyun.com/help</a><br/>Hotline：021-61639169<br/>Email：<a href='cs@paopaoyun.com'>cs@paopaoyun.com</a><br/><br/>Copyright ©2012 Kortide Corporation.<br/>All Rights Reserved.";
+
+//BackupRestoreViewController.m
+"BackupPhoneData" = "Backup";
+"RestorePhoneData" = "Restore";
+"RestoreSuccessful" = "Restore successful!";
+"LastBackupTime" = "Last backup time: ";
+"Backup" = "Backup";
+"Restore" = "Restore";
+"LastBackupDate" = "Last backup date:";
+"BackupBeCancel" = "Backup be cancel!";
+
+//BackupViewController.m
+//"ConfirmToCancelBackup" = "Backing up,are you sure want to cancel the operating?";
+"NoDataForBackup" = "There is no data to backup.";
+//"ConfirmToCoverLastRecord" = "This operating will cover the last record, continue?";
+"BackupSuccessful" = "Backup successful!";
+"ConfirmToRebackup" = "Backup failed, retry?";
+"BackupFailed" = "Backup failed!";
+"ReLoginFailed" = "Login failed!";
+"NetworkFailed" = "Network failed!";
+"BackupData" = "You will backup following data:";
+"Contacts" = "Contacts";
+
+//DevicesViewController.m
+"DefauteDeviceOffline" = "Is offline, please choose an online device to connect!";
+"DeviceOfflien" ="The selected device is offline, please check the device status or select another device!";
+"PasswordChanged" = "Your password was changed，try login again using new password  or call customer service";
+
+//EGORefreshTableHeaderView.m
+"Last Updated" = "Last Updated";
+"Release to refresh..." = "Release to refresh...";
+"Pull down to refresh..." = "Pull down to refresh...";
+"Loading..." = "Loading...";
+
+//FileCache.m
+"FileSizeMoreThan2MB" = "This file is more than 2M. It's recommented to use WiFi network. Do you want continue?";
+"Failed" = "failed.";
+"DeleteFileFailed" = "Delete file failed!";
+"CreateFolder" = "Create folder:";
+"CreateFileFailed" = "Create file failed.";
+"FileNotFound" = "File not found.";
+"ServerError" = "Server error.";
+"ServerOffline" = "Server is offline.";
+"LackOfSpace" = "Free space is not enough!";
+"AskDeleteCache" = "CaChe space than 1G, clean up？";
+
+//FileDownloadManager.m
+"DownloadFile" = "Download file";
+"DownloadFileFail" = "Download file failed:";
+"DownloadFileSizeZero" = "File size is 0";
+"MaxDownloadFileAlert" = "Max number of current downloading file is 3";
+"DownloadFileFailOption"="downloading failed,Whether to continue to download the file？";
+
+//FileDownloadManagerViewController.m
+"Edit" = "Edit";
+"Downloading" = "Downloading";
+"Downloaded" = "Downloaded";
+"DownloadingStoped" = "DownloadingStoped";
+"Done" = "Done";
+"NoFileForDownload" = "No downloaded files.";
+
+//FileListViewController.m
+"SearchResult" = "Search result";
+"SearchBarPlaceHolder" = "Input key words";
+"UploadFileToFolder" = "Add file";
+"TakeAPhoto" = "Take a photo";
+"FromGallery" = "From gallery";
+"CameraNotAvailable" = "Camera is not available";
+"UploadFile" = "Upload file";
+"NoResultForSearch" = "No results";
+"UploadPictureFail" = "Upload photo fail";
+"SearchBeCancel" = "Search be cancel.";
+"CannotSearchAllFileMode" = "No support *.* search !";
+"ClickToOpen" = "click to open";
+"FileAlreadyUpload" = " already in uploading queue.";
+
+//FileFolderViewController.m
+"InvalidSearchLength" = "please input at least 2 chars Search";
+"NoSearchInRootDirectory" = "Can't Search under root directory!";
+"NoFileResource" = "No File Resources";
+"TotalSpaceSize" = "Total Size";
+"UsedSpaceSize" = "Available Size";
+"selectBox" = "Select Equipment";
+"boxFolder" = "'s disk";
+"selectDisk"="Select Disk";
+"paopaoyun"="popocloud";
+"disk"="disk";
+"getDiskInfoError" = "Failed to get disk space";
+//FileSearch.m
+"SearchError" = "Search error";
+
+//LoginViewController.m
+"Prompt" = "Prompt";
+"Makesure" = "ok";
+"Error" = "Error";
+"SendVerifyEmail" = "send verify email";
+"InputConfirmPassword" = "Input Confirm Password";
+"InputUsername" = "Input Username.";
+"InputPassword" = "Input Password.";
+"InputRegistername" = "Input  Register Email.";
+"ErrorUsernameAndPassword" = "Username or Password Error.";
+"ErrorEmail" = "E-mail did not verify！";
+"ErrorEmail" = "Please verify E-mail！";
+"ErrorEmailTitle" = "E-mail did not verify！";
+"Login" = "Login";
+"AutoLogin" = "Login automatically";
+"Files" = "Files";
+"BackupAndRestore" = "Backup/Restore";
+"Other" = "More";
+"CheckUpdate" = "New update available. Update?";
+"RegisterNewAccount" = "Register PopoCloud account";
+"ForgetPassword" = "Forgot password?";
+"LoginUser" = "Please input the email or phone number";
+"LoginPassword" = "Please input your password";
+"InputEmail" = "Please in the address bar enter user name";
+"UserPassword" = " Password";
+
+"TabCloud" = "Cloud";
+"TabGallery" = "Gallery";
+"TabManager" = "Manager";
+
+//ModalAlert.m
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+//NewAccountViewController.m
+"Register" = "Register";
+"RegisterTitle" = "Register";
+"Email" = " Email";
+"ConfirmPassword" = " Confirm PW";
+"NoSamePassword" = "Please check the same password.";
+"InvalidPasswordLength" = "Password please input 6-16 chars.";
+"Validmaibox" = "do not use Gmail mailbox";
+"AgreedToRegisterProtocol" = "please Agreed to register protocol";
+"RegisterProtocol" = "User License Agreement";
+"EmailIsNotValid" = "Input the Email is not Valid";
+"RegisterSuccessTitle" = "Register Success";
+"RegisterSuccessContent" = "pelase go to your register email conduct account activation.";
+
+"EmailHasBeenRegisteredTitle" = "The email has already been registered";
+"EmailHasBeenRegisteredMessage" = "The email has alreadybeen registered, you can login with it or if it hasn't been motivated you can click";
+"EmailHasBeenRegisteredAction" = "send email to motivate again";
+"MotivateEmail" = "Account motivating Email";
+"MotivateEmailSented" = "The email has been sent, please check";
+"MotivateEmailSentedFailure" = "The Motivating email sent failed !";
+"ReturnToLogin" = "Return To Last Page";
+"AgreeWithProtocol" = "Agree with protocol";
+
+//PCBackupFile.m
+"NoDataForBackup" = "No data for backup";
+
+//FileUpload.m
+"UploadFileSizeMoreThan2MB" = "This file is more than 2M. It's recommented to use WiFi network. Do you want continue?";
+"ConfirmToUpload" = "The file exists,confirm to replace file?";
+"Replace" = "Replace";
+"AllReplace" = "All Replace";
+"NoSpaceLeft" = "The box space is not enough, can't upload file.";
+"DiskReadOnly" = "The box disk is read only.";
+
+//PCLogin.m
+"NoThisAccount" = "Account doesn't exist.";
+"LoginFailed" = "Login failed";
+
+//PCOpenFile.m
+"NoSuitableProgram" = "Unable to view this file type.";
+
+//PCShareUrl.m
+"ShareLink" = "Please select an action";
+"StopShare" = "Stop sharing";
+"ContinueShare" = "Share with more people";
+"DownloadFile" = "Download";
+"ShareWithEmail" = "Share via email";
+"ShareWithSMS" = "Share via SMS";
+"CopyToClipboard" = "Copy to clipboard";
+"Stop" = "Stop";
+"ShareLinkToEmail" = "Share via email";
+"Clipboard" = "Clipboard";
+"ShareFail" = "Share failed.";
+"MyShareFile" = "My Share File";
+"BeyondMaxFileSize"="File size is beyond 64M, download cancel !";
+"sendSuccess" = "Send Success.";
+"sendFail" = "Send Fail.";
+
+//PCUtility.m
+"UnknownNetworkError" = "Network error.";
+"AccessServerError" = "Cannot connect to server.";
+"UsernameInvalid" = "Username invalid.";
+"ClientRequestsNetworkError" = "Client requests network error.";
+"NetworkRedirectionError" = "Network redirection error.";
+"OpenNetwork" = "No network connection";
+"ConnetError" = "Time out ,Please check your network status or  server status.";
+"Error" = "Error";
+"NetNotReachableError" = "No network connection,try it later";
+
+//PhotoViewController.m
+"CachePictureFail" = "Remote device image is too big or damage";
+"AddPictureToPhotos" = "Add picture to Photos?";
+"PictureAlreadySave" = "Picture is saved to Photos";
+"FirstPicture" = "This is the first picture.";
+"LastPicture" = "This is the last picture.";
+"CollectSuccess" = "File has been collected successfully.";
+"ImgLoadFail" = "Image load fail";
+
+//PicturesFolderViewController.m
+"AutoUploadPic" = "auto upload photos";
+"NoUpdatedPic" = "no updated photos";
+"WaitForAutoUpload" = " photos wait for uploading...";
+"BeingAutoUpload" = " photos are uploading...";
+"FindUpdatedPic" = "Find photos to upload...";
+"AutoUploadFailed" = " upload failed";
+
+"Year" = "year";
+"Month" = "month";
+"NoPicturesForShare" = "You have no picture now";
+
+//PictureListController.m
+"DownloadThumbImageFail" = "Download thumb image fail!";
+"PicUnvailable" = "Get file failed!";
+
+//RestoreViewController.m
+"NoBackupRecord" = "You haven't backup your data yet.  There's no data to restore";
+"ReadMessageFromPC" = "Getting retore data...";
+"BackupFileIsBad" = "Backup file is corruptet. Restore failed";
+"CancelRestore" = "Restoring... Are you sure you want to cancel?";
+"ConfirmRestore" = "Restore will delete existing data first. Please make sure you have backed up important data.";
+"AddressBookRestoreSuccessful" = "Address book restored successful";
+"ConfirmCoverAddressBook" = "Address book will be retored, continue?";
+"RestoreContactStatusTo" = "You will restore your contact to:";
+"BackupTime" = "Last backup date:";
+"DownloadBackupFileFailed" = "Read backup file failed, retry?";
+"GetMessageFromPCFailed" = "Get backup data failed.";
+"DataToBeRestored" = "Data to be restored:";
+
+//SettingViewController.m
+"More" = "More";
+"Account Management" = "Account Management";
+"Username" = "Username";
+"Settings" = "Settings";
+"Switch Device" = "Switch Device";
+"Open Camera Upload" = "Open Camera Upload";
+"About" = "About";
+"Help" = "Help";
+"Feedback" = "Feedback";
+"Check new version" = "Check new version?";
+"Version" = "Version";
+"Copyright" = "Copyright";
+"Logout" = "Logout";
+"ConfirmLogout" = "Are you sure you want to logout?";
+"Camera Upload" = "Camera Upload";
+"Auto upload photos to PopoBox using WiFi" = "Auto upload photos to PopoBox using WiFi";
+"Choose upload mode" = "Choose upload mode";
+"Only upload using WiFi" = "Only upload using WiFi";
+"Upload using WiFi or mobile network" = "Upload using WiFi or mobile network";
+"We will not use 3G to upload files greater than 20M" = "We will not use 3G to upload files greater than 20M";
+"Open" = "Open";
+"Close" = "Close";
+"Contacts Backup & Restore" = "Contacts Backup & Restore";
+
+//ShareManagerViewController
+"NoFileForShare" = "No data";
+"Cloud Share" = "popoCloud Share";
+"My Share File" = "Hi, I'm using the paopaoCloud with you to share files。file viewing address:";
+"NoFileForShareTip" = "This document has been canceled Share";
+"Verifying Share file exists" = "Verifying Share file exists";
+
+//ShareDetailViewController.m
+"ConfirmStopShare" = "Are you sure stop sharing?";
+"Download" = "Download";
+"ShareURL" = "Share URL:";
+"ShareFile" = "File:";
+"PermissionDenied" = "Please go to Settings->Privacy->Contacts, change  setting";
+"FinishClipBoard" = "Finish copy share link to clipboard";
+"AddressBookRestoreCancelSuccessful" = "Address book restore canceled";
+
+"FileSizeMoreThan30MB" = "File size is beyond 30M, upload cancel!";
+"ContinueFileUpload" = "file already exists，continue uploading？";
+"ConfirmStopOpenFile" = "file too large,fail to open";
+"ConfirmEmptyFile" = "file size is 0";
+"NoBackupDate" = "backup date not exist";
+"CollectEmptyFile" = "Unable to Favorites size 0";
+"ShareEmptyFile" = "Unable to Share size 0";
+
+//Server Error
+"NotExist" = "File not found.";
+"LoginFailed" = "This device has been canceled";
+"AccessDenied" = "Access to the remote device is rejected";
+"HasExisted" = "Target file or folder already exists";
+"NotSupported" = "Is not supported in the root directory search";
+"InvalidAction" = "Invalid request parameter";
+"LoginTooMany" = "Repeatedly landing within 15 minutes";
+"CreateThumbFailed" = "Remote device image is too big or damage";
+"DeviceFull" = "Not enough storage space left for server or device offline ";
+
+//action button
+"Share" = "Share";
+"CancelShare" =  "Cancel Share";
+"Collect"  = "Collect";
+"CancelCollect" =  "Cancel Collect";
+"StopCollect" =  "Stop Collect";
+"ContinueCollect" =  "Continue Collect";
+"isCancelCollect" = "Are you sure you want to cancelCollect?";
+"isCancelShare" = "Are you sure you want to cancelShare?";
+"CancelUpload" = "Cancel Upload";
+"FileHasCollect" = "File # has been collected successfully";
+
+"STATUS_RUN" = "downing";
+"STATUS_PAUSE" = "pause";
+"STATUS_STOP" = "stop";
+
+//ELCAlbumPickerController
+"PhotoAlbum" = "Photo Albums";
+"UploadToPopoCloud" = "Uploading to PopoCloud";
+"Upload" = "Upload";
+"Refreshing" = "refreshing...";
+
+//FileUploadController
+"UploadManager" = "Upload Manager";
+"PauseUpload" = "Pause Upload";
+"ResumeUpload" = "Resume Upload";
+"WaitForUpload" = "Wait";
+"UploadAccessDeny" = "No access to photo library";
+"IsCancelUpload" = "Confirm to cancel upload?";
+"Pause" = "Pause";
+"PleaseWait" = "Please Wait...";
+"NoUploadTask" = "No upload task";
+"NoMoreSpace" = "Your disk has no more free space, please clear your disk!";
+"CannotUpload" = "File path is too long, can not upload";
+
+//FileCacheController
+"FileCannotOpen" = "You have canceled collecting the file, can't open it!";
+
+"ShareManager" = "Share Manager";
+"Can not Share" = "File path is too long, can not share";
+"Can not ShareFolder" = "Folder path is too long, can not share";
+"Can not Send SMS Title" = "Can not sent Message";
+"Can not Send SMS Content" = "Text Messaging is not available on %";
+
+
+"Go to Settings" = "1.                Go to Settings";
+"Go to Privacy" = "2.                Go to Privacy";
+"Go to Location Services" = "2.                Go to Location Services";
+"Go to Photos" = "3.                Go to Photos";
+"3Enable PopCloud" = "3.                Enable PopCloud";
+"4Enable PopCloud" = "4.                Enable PopCloud";
+
+"BoxOffline" = "Popobox is offline, please check your box status.";
+"FileNotExist" = "The file doesn't exist, please check if it is deleted!";
+"BoxNotConnect" = "The file doesn't exist, please check if the box is connected!";
+
+//contact backup
+"Please select the address book you want to import" = "Please select the address book you want to import";
+"back up" = "back up";
+"Restore" = "Restore";
+"Backup success" = "Backup success!";

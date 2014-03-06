@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CameraUploadInfo" representedClassName="AutoUploadInfo" syncable="YES">
+        <attribute name="assetUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileSize" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isUploaded" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="md5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FileCacheInfo" representedClassName="PCFileCacheInfo">
+        <attribute name="fileKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modifyGTMTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="modifyTime" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="path" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="thumbIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="timeZone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="FileDownloadedInfo" representedClassName="PCFileDownloadedInfo">
+        <attribute name="hostPath" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="localPath" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="modifyTime" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="recordTime" optional="YES" attributeType="Double" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="FileDownloadingInfo" representedClassName="PCFileDownloadingInfo">
+        <attribute name="deviceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="downhostPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hostPath" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="localPath" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="modifyGTMTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Float" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="recordTime" optional="YES" attributeType="Double" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0.0">
+            <userInfo/>
+        </attribute>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="FileUploadInfo" representedClassName="FileUploadInfo" syncable="YES">
+        <attribute name="assetUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileSize" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="hostPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploadTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CameraUploadInfo" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="FileCacheInfo" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="FileDownloadedInfo" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="FileDownloadingInfo" positionX="160" positionY="192" width="128" height="195"/>
+        <element name="FileUploadInfo" positionX="160" positionY="192" width="128" height="165"/>
+    </elements>
+</model>

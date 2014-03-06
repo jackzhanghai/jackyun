@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>条形码阅读器说明</title>
+<style type="text/css">
+html, body { margin: 0; padding: 0; background: black; color: white; font-family: sans-serif; font-size: 16px }
+h1 { margin: .5em 0; text-align: center; font-size: 28px }
+h2 { font-size: 24px }
+hr { margin: 1em 0; height: 0; border: none; border-top: solid 1px #666 }
+.smaller { font-size: 85% }
+p { margin: .5em }
+a { color: #8af }
+p.cen { text-align: center }
+p.title { margin: 1em; clear: both; text-align: center }
+div.col { width: 50% }
+.clear { clear: both }
+.iconlist { position: relative; clear: both; margin: 4px 0; padding: 1px 0 }
+.icon { width: 64px; height: 64px; overflow: hidden; margin: 12px 16px; padding: 0; background: url("zbar-helpicons.png") no-repeat; font: bold 52px "Marker Felt"; text-align: center }
+.sample { display: block; height: 96px; overflow: hidden; margin: 12px auto; padding: 0; background: url("zbar-samples.png") no-repeat; text-align: center}
+.left { float: left }
+.right { float: right }
+.iconlist > p { margin: 10px }
+.iconlist > h2 { margin: 10px }
+</style>
+</head>
+<body>
+<h1 id="title" style="color: #f88">条形码扫描温馨提示</h1>
+<hr/>
+<div class="iconlist">
+<div class="icon left"></div>
+<p>确保有足够的</p>
+<h2 style="color: #ff4">照明</h2>
+</div>
+<div class="iconlist">
+<div class="icon left" style="background: none; color: #2d4">10</div>
+<h2 style="color: #4f6">距离</h2>
+<p>保持10厘米左右距离</p>
+</div>
+<div class="iconlist">
+<div class="icon left" style="background-position: 0 -64px"></div>
+<h2 style="color: #3ee">摇晃</h2>
+<p>强制摄相头聚焦</p>
+</div>
+<div class="iconlist">
+<div class="icon left" style="background-position: 0 -128px"></div>
+<h2 style="color: #59f">等待</h2>
+<p>等待自动聚焦完成</p>
+</div>
+<div class="iconlist">
+<div class="icon left" style="background-position: 0 -192px"></div>
+<h2 style="color: #d5f">继续保持</h2>
+<p>直到条形码被扫描完成</p>
+</div>
+<script type="text/javascript">
+function onZBarHelp(argv) {
+var title;
+switch(argv.reason) {
+case "INFO": break;
+case "FAIL": title = "No Barcode Detected"; break;
+}
+if(title) document.getElementById('title').textContent = title;
+}
+</script>
+</body>
+</html>

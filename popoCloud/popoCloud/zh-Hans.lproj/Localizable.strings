@@ -1,0 +1,416 @@
+/* 
+  Localizable.strings
+  ECloud
+
+  Created by rong kira on 11-10-18.
+  Copyright 2011年 Kortide. All rights reserved.
+*/
+
+"Devices" = "设备";
+"Yes" = "是";
+"No" = "否";
+"ReturnBack" = "返回";
+
+//AboutViewController.m
+"VersionInfo" = "版本";
+"ContactInfo" = "联系我们";
+"LinkInfo" = "感谢使用上海科泰华捷科技有限公司出品的泡泡云产品，此版本仅适用于iOS 5.0 以上版本的iPhone手机或iPad。本软件下载、安装均完全免费，使用过程中产生的GPRS数据流量费用均由运营商收取。<br/><br/>如您在使用过程中有任何问题或建议，请联系我们。<br/><br/>泡泡云官网：<a href='www.paopaoyun.com'>www.paopaoyun.com</a><br/>产品帮助中心：<a href='www.paopaoyun.com/help'>www.paopaoyun.com/help</a><br/>客服热线：021-61639169<br/>Email：<a href='cs@paopaoyun.com'>cs@paopaoyun.com</a><br/><br/>Copyright ©2012 Kortide Corporation.<br/>All Rights Reserved.";
+
+//BackupRestoreViewController.m
+"BackupPhoneData" = "备份手机资料";
+"RestorePhoneData" = "还原手机资料";
+"RestoreSuccessful" = "还原成功！";
+"LastBackupTime" = "备份的最近一次时间是: ";
+"Backup" = "备份";
+"Restore" = "还原";
+"LastBackupDate" = "最近一次备份的时间:";
+
+//BackupViewController.m
+//"ConfirmToCancelBackup" = "正在备份中...，确定要取消";
+"NoDataForBackup" = "没有可以备份的数据。";
+//"ConfirmToCoverLastRecord" = "本次操作会覆盖之前的备份，继续？";
+"BackupSuccessful" = "备份成功！";
+"ConfirmToRebackup" = "备份文件上传失败，重试？";
+"BackupFailed" = "备份失败";
+"ReLoginFailed" = "登录失败！";
+"NetworkFailed" = "网络失败！";
+"BackupData" = "您将备份的资料包括：";
+"Contacts" = "联系人";
+"BackupBeCancel" = "备份被取消！";
+
+//DevicesViewController.m
+"DefauteDeviceOffline" = "已处于离线状态，请选择其他设备进行连接！";
+"DeviceOfflien" ="泡泡云盒子不在线，请检查该盒子是否正常工作";
+"PasswordChanged" = "您的密码在别处被修改，请确认后尝试重新登陆。若非本人操作，请及时联系客服";
+
+//EGORefreshTableHeaderView.m
+"Last Updated" = "最后更新";
+"Release to refresh..." = "松开即可刷新...";
+"Pull down to refresh..." = "下拉可用刷新...";
+"Loading..." = "加载中...";
+
+//FileCache.m
+"FileSizeMoreThan2MB" = "现在不是WiFi联网方式，该文件大于2M，是否继续下载？";
+"Failed" = "失败";
+"DeleteFileFailed" = "删除文件失败！";
+"CreateFolder" = "创建文件夹:";
+"CreateFileFailed" = "创建文件出错！";
+"FileNotFound" = "服务器端文件不存在。";
+"ServerError" = "服务器出错！";
+"ServerOffline" = "服务器端软件已离线。";
+"LackOfSpace" = "磁盘空间不足！";
+"LackOfSpaceForDownload" = "本地存储空间不足，下载已暂停。";
+"AskDeleteCache" = "缓存空间超过1G，是否清除？";
+
+//FileDownloadManager.m
+"DownloadFile" = "下载文件";
+"DownloadFileFail" = "下载文件出错:";
+"DownloadFileSizeZero" = "文件大小为0";
+
+//FileDownloadManagerViewController.m
+"Edit" = "编辑";
+"Downloading" = "正在下载";
+"Downloaded" = "已经下载";
+"DownloadingStoped" = "暂停下载";
+"Done" = "完成";
+"NoFileForDownload" = "在这里管理你下载的所有内容哦！\n小泡泡伤心了～";
+
+//FileListViewController.m
+"SearchResult" = "搜索结果";
+"SearchBarPlaceHolder" = "请输入至少两个关键字对泡泡云进行搜索";
+"UploadFileToFolder" = "上传图片";
+"TakeAPhoto" = "拍照";
+"FromGallery" = "从相册选择";
+"CameraNotAvailable" = "相机不可用！";
+"UploadFile" = "上传文件";
+"NoResultForSearch" = "没有搜索到符合条件的文件";
+"UploadPictureFail" = "上传图片失败";
+"SearchBeCancel" = "搜索被取消。";
+"CannotSearchAllFileMode" = "不支持*.*搜索模式";
+"ClickToOpen" = "点击播放";
+"FileAlreadyUpload" = "已经处于上传队列中";
+"InvalidName" = "非法字符！";
+"CannotCreate" = "文件路径过长，无法创建";
+"NameTooLong" = "名称过长，无法创建";
+
+//FileFolderViewController.m
+"InvalidSearchLength" = "请输入至少两个关键字进行搜索";
+"NoSearchInRootDirectory"="不支持根目录下搜索";
+"NoFileResource"="您目前没有任何文件资源";
+"TotalSpaceSize"="容量";
+"UsedSpaceSize"="剩余容量";
+"selectBox"="选择设备";
+"boxFolder"="的磁盘";
+"selectDisk"="选择磁盘";
+"paopaoyun"="泡泡云";
+"disk"="磁盘";
+"getDiskInfoError" = "获取磁盘空间失败";
+
+//FileSearch.m
+"SearchError" = "搜索出错！";
+"SearchErrorNoSpaceLeft" = "泡泡云盒子端硬盘空间不足，不能搜索啦～";
+
+//LoginViewController.m
+"Prompt" = "提示";
+"Makesure" = "确定";
+"Error" = "错误";
+"SendVerifyEmail" = "发送激活邮件";
+"InputConfirmPassword" = "请填写确认密码";
+"InputUsername" = "请输入泡泡云帐号！";
+"InputRegistername" = "请输入注册邮箱！";
+"InputPassword" = "请输入密码！";
+"ErrorUsernameAndPassword" = "帐号或者密码错误！";
+"ErrorEmail" = "请登录注册邮箱激活泡泡云帐号或者再次发送激活邮件！";
+"ErrorEmailTitle" = "帐号未被激活！";
+"Login" = "登录";
+"AutoLogin" = "自动登录";
+"Files" = "文件";
+"BackupAndRestore" = "备份与还原";
+"Other" = "其他";
+"CheckUpdate" = "发现新的版本，更新吗？";
+"RegisterNewAccount" = "注册泡泡云帐号";
+"ForgetPassword" = "忘记密码？";
+"LoginUser" = "请输入邮箱或手机号";
+"LoginPassword" = "请输入您的密码";
+"InputEmail" = "请先在地址栏输入需要找回的用户名";
+"UserPassword" = " 密码";
+
+"TabCloud" = "我的云";
+"TabGallery" = "图片";
+"TabManager" = "管理";
+
+//ModalAlert.m
+"OK" = "确定";
+"Cancel" = "取消";
+"Continue" = "继续";
+
+//NewAccountViewController.m
+"Register" = "立即注册";
+"RegisterTitle" = "注册";
+"Email" = " 帐号";
+"ConfirmPassword" = " 确认密码";
+"NoSamePassword" = "密码和确认密码不一致，请重新输入";
+"InvalidPasswordLength" = "密码为6-16位英文字符或数字！";
+"AgreedToRegisterProtocol" = "请勾选同意注册协议";
+"RegisterProtocol" = "用户协议";
+"EmailIsNotValid" = "输入的邮箱地址不合法";
+"RegisterSuccessTitle" = "注册成功";
+"RegisterSuccessContent" = "请登录注册邮箱激活泡泡云帐号。";
+"EmailHasBeenRegisteredTitle" = "帐号已存在";
+"EmailHasBeenRegisteredMessage" = "请直接登录或者重新选择其他帐号进行注册";
+"EmailHasBeenRegisteredAction" = "再次发送激活邮件";
+"MotivateEmail" = "激活帐号邮件";
+"MotivateEmailSented" = "激活邮件已再次发送，请查收";
+"MotivateEmailSentedFailure" = "激活邮件发送失败";
+"ReturnToLogin" = "返回登录";
+"AgreeWithProtocol" = "同意软件协议";
+
+//PCBackupFile.m
+"NoDataForBackup" = "没有可备份的数据。";
+
+//FileUpload.m
+"UploadFileSizeMoreThan2MB" = "现在不是WiFi联网方式，该文件大于2M，是否继续上传？";
+"NoSpaceLeftForUpload" = "泡泡云磁盘空间不足，文件上传已暂停。";
+"DiskReadOnlyForUpload" = "上传文件失败，请检查硬盘设置是否正常！";
+"NotExistDisksForUpload" = "上传文件失败，小泡泡发现您的硬盘不在呢～";
+"NotExistDisksForUploadForContact" = "备份联系人失败，小泡泡发现您的硬盘不在呢～";
+"NoSpaceLeft" = "检测到您连接泡泡云盒子的硬盘空间不足，请整理硬盘噢～";
+"DiskReadOnly" = "文件访问受限制，请检查硬盘设置是否正常！";
+"NotExistDisks" = "请检查硬盘是否正常连接！";
+//PCLogin.m
+"NoThisAccount" = "本用户名还没注册";
+"LoginFailed" = "登录失败！";
+
+//PCOpenFile.m
+"NoSuitableProgram" = "设备不支持该文件。";
+
+//PCShareUrl.m
+"ShareLink" = "请选择操作方式";
+"StopShare" = "停止分享";
+"ContinueShare" = "继续分享";
+"DownloadFile" = "下载文件";
+"ShareWithEmail" = "邮件分享";
+"ShareWithSMS" = "短信分享";
+"CopyToClipboard" = "复制到粘贴板";
+"Stop" = "停止";
+"ShareLinkToEmail" = "共享链接到Email";
+"Clipboard" = "粘贴板";
+"ShareFail" = "分享失败。";
+"MyShareFile" = "我分享的文件";
+"BeyondMaxFileSize"="文件大于64M，无法下载";
+
+//PCUtility.m
+"UnknownNetworkError" = "未知错误网络错误！";
+"AccessServerError" = "访问服务器出错！";
+"UsernameInvalid" = "无效用户号！";
+"ClientRequestsNetworkError" = "客户端请求网络出错！";
+"NetworkRedirectionError" = "网络重定向出错！";
+"OpenNetwork" = "请打开网络";
+"ConnetError" = "响应超时，请检查网络或服务器端是否运行正常。";
+"Error" = "出错";
+"NetNotReachableError" = "服务器无响应，请检查网络设置是否有问题";
+//服务器500错误
+"ServerError500" = "有可能服务器异常，请稍候再试～";
+
+//PhotoViewController.m
+"CachePictureFail" = "Sorry~ 文件查看失败！";
+"AddPictureToPhotos" = "把此图片添加到手机相册中？";
+"PictureAlreadySave" = "图片已经保存到相册，请到相册查看。";
+"FirstPicture" = "这是最前一张图片。";
+"LastPicture" = "这是最后一张图片。";
+"CollectSuccess" = "文件已成功下载。";
+"ImgLoadFail" = "图片加载失败";
+
+//PicturesFolderViewController.m
+"AutoUploadPic" = "自动上传相机文件";
+"NoUpdatedPic" = "相机文件无更新";
+"WaitForAutoUpload" = "个相机文件等待上传...";
+"BeingAutoUpload" = "个相机文件正在上传...";
+"FindUpdatedPic" = "正在查找需要上传的相机文件...";
+"AutoUploadFailed" = "个文件上传失败";
+
+"Year" = "年";
+"Month" = "月";
+"NoPicturesForShare" = "您目前没有任何图片";
+
+//PictureListController.m
+"DownloadThumbImageFail" = "获取缩略图失败！";
+"PicUnvailable" = "文件获取失败！";
+
+//RestoreViewController.m
+"NoBackupRecord" = "您尚未进行过任何备份操作，所以暂时无任何备份记录可供还原。";
+"ReadMessageFromPC" = "正在读取还原信息...";
+"BackupFileIsBad" = "还原资料被破坏，不能还原。";
+"CancelRestore" = "正在还原中...，确定要取消？";
+"ConfirmRestore" = "还原将清空现有手机资料，请确保已备份重要信息。";
+"AddressBookRestoreSuccessful" = "还原成功，请查看。";
+"ConfirmCoverAddressBook" = "本次操作会覆盖当前手机所有的地址簿资料，继续？";
+"RestoreContactStatusTo" = "您即将把手机联系人还原到以下状态：";
+"BackupTime" = "备份记录时间是:";
+"DownloadBackupFileFailed" = "还原信息读取失败，重试？";
+"GetMessageFromPCFailed" = "无法获得还原信息。";
+"DataToBeRestored" = "即将还原内容：";
+
+//SettingViewController.m
+"More" = "更多";
+"Account Management" = "泡泡云帐号管理";
+"Username" = "用户名";
+"Settings" = "设置";
+"Switch Device" = "切换设备";
+"Open Camera Upload" = "开启自动上传相机文件";
+"About" = "关于泡泡云";
+"Help" = "泡泡云帮助";
+"Feedback" = "意见反馈";
+"Check new version" = "检查是否有泡泡云新版本？";
+"Version" = "版本";
+"UserHelp" = "帮助";
+"MemeryClear" = "手动缓存清理";
+"Copyright" = "泡泡云版权所有";
+"Logout" = "退出登录";
+"ConfirmLogout" = "您确定要退出帐号？";
+"Camera Upload" = "相机中照片自动上传";
+"Auto upload photos to PopoBox using WiFi" = "WiFi环境下自动备份您相机中的照片到泡泡云盒子";
+"Choose upload mode" = "选择上传方式";
+"Only upload using WiFi" = "仅使用WiFi上传";
+"Upload using WiFi or mobile network" = "使用WiFi或移动网络上传";
+"We will not use 3G to upload files greater than 20M" = "我们不会使用3G网络上传您超过20M的相机文件";
+"Open" = "已开启";
+"Close" = "已关闭";
+"Contacts Backup & Restore" = "联系人备份同步";
+
+//ShareManagerViewController
+"CurretntNoileShare"="目前没有分享";
+"ManageShareFile"="在这里管理你所有分享给好友的内容，是不是很酷！\n小泡泡敬～";
+"NoFileForShare" = "在这里管理您所有分享给好友的内容";
+"Cloud Share" = "泡泡云分享";
+"NoFileForShareTip" = "该文件已中止分享";
+"Verifying Share file exists" = "正在验证分享文件是否存在";
+
+
+
+//ShareDetailViewController.m
+"ConfirmStopShare" = "确定要停止分享？";
+"Download" = "下载";
+"ShareURL" = "分享URL:";
+"ShareFile" = "原文件:";
+
+"PermissionDenied" = "请到“系统设置->隐私->通讯录”开通泡泡云访问通讯录的权限。";
+"FinishClipBoard" = "已复制分享链接到粘贴板";
+"AddressBookRestoreCancelSuccessful" = "还原已取消。";
+"FileSizeMoreThan30MB" = "文件大于30M，无法上传";
+"ContinueFileUpload" = "文件已经存在，是否覆盖？";
+"ConfirmStopOpenFile" = "文件过大，无法打开";
+"ConfirmEmptyFile" = "文件大小为0";
+"NoBackupDate" = "尚未有任何备份记录";
+"CollectEmptyFile" = "无内容或文件已经损坏，尝试检查文件内容";
+"ShareEmptyFile" = "无法分享大小为0的文件";
+
+//Server Error
+"NotExist" = "内容不存在，请检查盒子是否正常连接！";
+//"服务器端文件不存在。";
+"LoginFailed" = "当前设备已注销";
+"AccessDenied" = "访问远端设备被拒绝";
+"HasExisted" = "目标文件或文件夹已存在";
+"NotSupported" = "不支持在根目录下进行搜索";
+"InvalidAction" = "无效的请求参数";
+"BoxUnbind" = "您的盒子已被解绑，请检查～";
+"LoginTooMany" = "15分钟内多次登录";
+"CreateThumbFailed" = "远端设备图片太大或损坏";
+"DeviceFull" = "服务器磁盘空间不足或设备不在线";
+
+//action button
+"Share" = "分享";
+"CancelShare" = "取消分享";
+"Collect" = "下载";
+"CancelCollect" = "取消下载";
+"StopCollect" = "暂停下载";
+"ContinueCollect" = "继续下载";
+"isCancelCollect" = "是否取消下载";
+"isCancelShare" = "是否取消分享";
+"CancelUpload" = "取消上传";
+"FileHasCollect" = "文件#已被成功下载";
+"Delete" = "删除";
+"Rename" = "重命名";
+
+"STATUS_RUN" = "正在下载";
+"STATUS_PAUSE" = "等待下载中";
+"STATUS_STOP" = "下载已暂停";
+
+//ELCAlbumPickerController
+"PhotoAlbum" = "相簿";
+"UploadToPopoCloud" = "上传至泡泡云";
+"Upload" = "上传";
+"Refreshing" = "刷新中...";
+
+//FileUploadController
+"UploadManager" = "上传管理";
+"PauseUpload" = "暂停上传";
+"ResumeUpload" = "恢复上传";
+"WaitForUpload" = "等待";
+"UploadAccessDeny" = "照片库访问无权限";
+"IsCancelUpload" = "是否取消上传?";
+"Pause" = "暂停";
+"PleaseWait" = "请等待...";
+"NoUploadTask" = "目前没有上传";
+"NoUploadDes"="这里嘛～小泡泡就是想告诉你，你现在正在上传\n的那些东东啊，都跑到哪里去了呢？\n什么时候到终点站呢～";
+"NoMoreSpace" = "您磁盘空间已满，可能影响泡泡云使用，请适时清理！";
+"CannotUpload" = "文件路径过长，无法上传";
+
+//FileCacheController
+"FileCannotOpen" = "您已取消下载该文件，无法打开！";
+
+"ShareManager" = "分享管理";
+"Can not Share" = "文件路径过长，无法分享";
+"Can not ShareFolder" = "文件夹路径过长，无法分享";
+
+"Can not Send SMS Title" = "无法发送信息";
+"Can not Send SMS Content" = "%不可使用短信";
+
+"Go to Settings" = "1.                设置";
+"Go to Privacy" = "2.                隐私";
+"Go to Location Services" = "2.                定位服务";
+"Go to Photos" = "3.                照片";
+"3Enable PopCloud" = "3.                泡泡云";
+"4Enable PopCloud" = "4.                泡泡云";
+
+"BoxOffline" = "泡泡云盒子不在线，请检查该盒子是否正常工作";
+"FileNotExist" = "内容不存在，请检查是否已删除！";
+
+//contact  backup
+"Please select the address book you want to import" ="请选择你要导入的通讯录";
+"back up" = "备份";
+"Restore" = "还原";
+"Backup success" = "上传成功！";
+
+"Byte" = "字节";
+"Bytes" = "字节";
+"NoSpaceForBackup" = "泡泡云盒子端硬盘空间不足，不能备份啦～";
+
+
+//盒子不在线，没有盒子，没有文件等提示语
+"LoadDeviceListFailedAndClickToRefresh"="加载设备失败，请点击刷新\"";
+"LoadBoxFailed"="加载盒子失败";
+"GoBind"="去绑定吧！";
+"PopoCloudKonwFailedAndRefreshAgain"="小泡泡知道错了，您就再刷新一次试试，好不好?";
+"OKOrNot"="好不好?";
+"TeacherTellUsNoEmpty"="冒泡泡~ ~从小老师就教育咱们，即使不会\n也不要留空，这样是不尊重老师滴～";
+"NotFoundYourBoxs"="没有发现您的盒子哦";
+"NoFileCurrent"="目前没有文件";
+"NoImageCurrent"="目前没有图片";
+"NoContentCurrent"="目前没有内容";
+"NoPictureFolder"="您还没有设置要查看的图片文件夹，\n请点击右上角的“设置”按钮进行设置~ ~";
+"NoPictureFavorite"="从小老师就教育咱们，就算不会也不要留空嘛~\n赶紧去添加“我喜欢”图片吧：\n在“按目录查看”和“按月份查看”图片时，执行“添加到我喜欢”";
+"PopoCloudDespiseYou"="冒泡泡！从小老师就教育咱们，即使不会也不要\n留空，这样是不尊重老师滴～\n小泡泡偷偷地BS你，哈哈！没有啦～";
+"PopoCloudEmbarrassed"="小泡泡实在不好意思露面了~ ~";
+"ImageToBig"="图片太大，无法生成预览图！";
+
+
+//ManagementController
+"DownloadContent"="下载内容";
+"ConfirmDel"="确定删除下载文件？";
+
+//网络没连接;
+"NetStateError"="网络异常，是否继续？";
+"QuiteApp"="退出应用";
+"OfflineCheck" = "离线查看";
+"NetStateErrorTryLater"="网络异常，请稍候重试！";

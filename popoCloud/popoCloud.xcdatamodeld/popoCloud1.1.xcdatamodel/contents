@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="FileCacheInfo" representedClassName="PCFileCacheInfo">
+        <attribute name="modifyGTMTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="modifyTime" optional="YES" attributeType="String"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FileDownloadedInfo" representedClassName="PCFileDownloadedInfo">
+        <attribute name="hostPath" optional="YES" attributeType="String"/>
+        <attribute name="localPath" optional="YES" attributeType="String"/>
+        <attribute name="modifyTime" optional="YES" attributeType="String"/>
+        <attribute name="recordTime" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FileDownloadingInfo" representedClassName="PCFileDownloadingInfo">
+        <attribute name="hostPath" optional="YES" attributeType="String"/>
+        <attribute name="localPath" optional="YES" attributeType="String"/>
+        <attribute name="modifyGTMTime" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Float" defaultValueString="0.0"/>
+        <attribute name="recordTime" optional="YES" attributeType="Double" defaultValueString="0.0"/>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0.0"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FileCacheInfo" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="FileDownloadedInfo" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="FileDownloadingInfo" positionX="160" positionY="192" width="128" height="165"/>
+    </elements>
+</model>
